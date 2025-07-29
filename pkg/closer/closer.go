@@ -70,7 +70,7 @@ func (c *Closer) CloseAll() {
 
 		for i := 0; i < cap(errs); i++ {
 			if err := <-errs; err != nil {
-				log.Println("error returned from Closer")
+				log.Println("error was returned from Closer")
 			}
 		}
 	})

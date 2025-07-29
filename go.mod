@@ -1,4 +1,4 @@
-module github.com/levon-dalakyan/platform-common
+module github.com/ldevprog/platform-common
 
 go 1.23.0
 
@@ -8,7 +8,6 @@ require (
 	github.com/georgysavva/scany v1.2.3
 	github.com/jackc/pgconn v1.14.3
 	github.com/jackc/pgx/v4 v4.18.3
-	github.com/levon-dalakyan/auth v0.0.0-20250722113659-259fe8b785ee
 	github.com/pkg/errors v0.9.1
 )
 

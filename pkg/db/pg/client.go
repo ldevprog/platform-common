@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/jackc/pgx/v4/pgxpool"
-	"github.com/levon-dalakyan/platform-common/pkg/db"
+	"github.com/ldevprog/platform-common/pkg/db"
 	"github.com/pkg/errors"
 )
 

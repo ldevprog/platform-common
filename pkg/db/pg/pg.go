@@ -10,8 +10,8 @@ import (
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/levon-dalakyan/platform-common/pkg/db"
-	"github.com/levon-dalakyan/platform-common/pkg/db/prettier"
+	"github.com/ldevprog/platform-common/pkg/db"
+	"github.com/ldevprog/platform-common/pkg/db/prettier"
 )
 
 type pg struct {
